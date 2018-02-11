@@ -10,8 +10,8 @@ console.log(allNames);
 var newName = 'Marian'
 
 if (allNames.indexOf(newName) === -1) {
-    new.Names.push(allNames);
+    allNames.push(newName);
 }
 
-consol.log (allNames);
+console.log (allNames);
     
